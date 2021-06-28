@@ -8,7 +8,7 @@ namespace RestaurantMenu
 {
     class Menu
     {
-        public Menu()
+        public void ShowMenu()
         {
             MenuItem FriedRice = new MenuItem();
             FriedRice.Price = 8.99;
@@ -27,6 +27,19 @@ namespace RestaurantMenu
             FriedIceCream.Description = ("One scoop of vanilla icecream deep fried.");
             FriedIceCream.Category = ("Dessert");
             FriedIceCream.IsNew = true;
+
+            Console.WriteLine("\n=====APPETIZER=====");
+            Console.WriteLine($"Menu Item: WonTon \tPrice: {WonTon.Price}\n\tDescription: {WonTon.Description}");
+
+            Console.WriteLine("\n=====MAIN COURSE=====");
+            Console.WriteLine($"Menu Item: Fried Rice \tPrice: {FriedRice.Price}\n\tDescription: {FriedRice.Description}");
+
+            Console.WriteLine("\n=====DESSERT=====");
+            Console.WriteLine($"Menu Item: Fried Ice Cream \tPrice: {FriedIceCream.Price}\n\tDescription: {FriedIceCream.Description}");
+
+            Console.ReadKey();
         }
+
+       
     }
 }

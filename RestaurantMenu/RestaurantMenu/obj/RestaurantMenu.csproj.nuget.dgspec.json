@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cartermckaughan/Projects/studio_18/RestaurantMenu/RestaurantMenu/RestaurantMenu.csproj": {}
+    "C:\\Users\\Kris\\source\\repos\\LaunchCode\\Ch18\\studio_18\\RestaurantMenu\\RestaurantMenu\\RestaurantMenu.csproj": {}
   },
   "projects": {
-    "/Users/cartermckaughan/Projects/studio_18/RestaurantMenu/RestaurantMenu/RestaurantMenu.csproj": {
+    "C:\\Users\\Kris\\source\\repos\\LaunchCode\\Ch18\\studio_18\\RestaurantMenu\\RestaurantMenu\\RestaurantMenu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cartermckaughan/Projects/studio_18/RestaurantMenu/RestaurantMenu/RestaurantMenu.csproj",
+        "projectUniqueName": "C:\\Users\\Kris\\source\\repos\\LaunchCode\\Ch18\\studio_18\\RestaurantMenu\\RestaurantMenu\\RestaurantMenu.csproj",
         "projectName": "RestaurantMenu",
-        "projectPath": "/Users/cartermckaughan/Projects/studio_18/RestaurantMenu/RestaurantMenu/RestaurantMenu.csproj",
-        "packagesPath": "/Users/cartermckaughan/.nuget/packages/",
-        "outputPath": "/Users/cartermckaughan/Projects/studio_18/RestaurantMenu/RestaurantMenu/obj/",
+        "projectPath": "C:\\Users\\Kris\\source\\repos\\LaunchCode\\Ch18\\studio_18\\RestaurantMenu\\RestaurantMenu\\RestaurantMenu.csproj",
+        "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kris\\source\\repos\\LaunchCode\\Ch18\\studio_18\\RestaurantMenu\\RestaurantMenu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/cartermckaughan/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Kris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
