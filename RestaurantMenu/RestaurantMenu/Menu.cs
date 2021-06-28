@@ -8,6 +8,11 @@ namespace RestaurantMenu
 {
     class Menu
     {
+        public void NewItem(MenuItem item)
+        {
+            if (item.IsNew == true)
+            Console.WriteLine("***New***");
+        }
         public void ShowMenu()
         {
             MenuItem FriedRice = new MenuItem();
@@ -26,16 +31,22 @@ namespace RestaurantMenu
             FriedIceCream.Price = 2.50;
             FriedIceCream.Description = ("One scoop of vanilla icecream deep fried.");
             FriedIceCream.Category = ("Dessert");
-            FriedIceCream.IsNew = true;
+            FriedIceCream.IsNew = false;
 
             Console.WriteLine("\n=====APPETIZER=====");
-            Console.WriteLine($"Menu Item: WonTon \tPrice: {WonTon.Price}\n\tDescription: {WonTon.Description}");
+            NewItem(WonTon);
+            Console.WriteLine($"Menu Item: WonTon \tPrice: ${WonTon.Price}\n\tDescription: {WonTon.Description}");
 
             Console.WriteLine("\n=====MAIN COURSE=====");
-            Console.WriteLine($"Menu Item: Fried Rice \tPrice: {FriedRice.Price}\n\tDescription: {FriedRice.Description}");
+            NewItem(FriedRice);
+            Console.WriteLine($"Menu Item: Fried Rice \tPrice: ${FriedRice.Price}\n\tDescription: {FriedRice.Description}");
 
             Console.WriteLine("\n=====DESSERT=====");
-            Console.WriteLine($"Menu Item: Fried Ice Cream \tPrice: {FriedIceCream.Price}\n\tDescription: {FriedIceCream.Description}");
+            NewItem(FriedIceCream);
+            Console.WriteLine($"Menu Item: Fried Ice Cream \tPrice: ${FriedIceCream.Price}0\n\tDescription: {FriedIceCream.Description}");
+
+            DateTime lastUpdated = new DateTime (2021, 06, 28);
+            Console.WriteLine($"\n Last updated: {lastUpdated}");
 
             Console.ReadKey();
         }
